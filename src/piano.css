@@ -1,0 +1,88 @@
+body {
+    background-color: #5CDB95;
+    background-position: 100px top;
+}
+
+/*kbd {*/
+/*    margin: auto;*/
+/*    border-color: red;*/
+/*    border-style: solid;*/
+/*    !*border-width: 10px;*!*/
+/*    color: black;*/
+/*    background-color: white;*/
+/*    display: inline-block;*/
+/*    padding: 225px 50px 75px 50px;*/
+/*    !*text-align: center;*!*/
+/*    !*text-emphasis-position: under;*!*/
+/*    !*align-content: end;*!*/
+/*}*/
+
+.white-keys{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    width: 50%;
+    margin: 10% auto;
+    /*border-color: blue;*/
+    /*border-style: solid;*/
+}
+
+.white-keys kbd{
+    border-color: red;
+    border-style: solid;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    padding: 225px 50px 75px 50px;
+}
+
+.black-keys{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    width: 50%;
+    margin: 10% auto;
+    /*border-color: blue;*/
+    /*border-style: solid;*/
+}
+
+.black-keys kbd{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 112px 25px 37px 25px;
+}
+
+.container {
+    width: 50%;
+    margin: 10% auto;
+    /*border-color: blue;*/
+    /*border-style: solid;*/
+    /*align-items: center;*/
+    /*border: 10px solid blanchedalmond;*/
+}
+
+#W{
+    position: absolute;
+    left: 90px;
+}
+
+#E{
+    position: absolute;
+    left: 215px;
+}
+
+#T{
+    position: absolute;
+    left: 460px;
+}
+
+#Y{
+    position: absolute;
+    left: 585px;
+}
+
+#U{
+    position: absolute;
+    left: 708px;
+}
